@@ -7,10 +7,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 
 export class CustomCounterComponent {
-  // constructor() { 
-  //   this.count = 0;
-  // }
-
   @Input() count? : number;
   @Output() increment = new EventEmitter();
 

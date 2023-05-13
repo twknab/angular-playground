@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  count = 0;
+
+  onIncrementCounter() {
+    return this.count++;
+  }
 }
